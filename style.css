@@ -1,0 +1,30 @@
+body{
+    background-color:hsl(233, 47%, 7%);
+    display: flex;
+   padding: 170px;
+}
+.text{
+flex: 1;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: start;
+padding: 8%;
+background-color: hsl(244, 38%, 16%);
+color:white;
+    font-family: "Inter", sans-serif;
+  }
+.image{
+   flex: 1;
+}
+img{
+    border-radius: 2px;}
+    .text h1{
+            font-family: "Inter", sans-serif;
+    font-size: 40px;
+          
+    }
+    .text p{
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 13px;
+    }
